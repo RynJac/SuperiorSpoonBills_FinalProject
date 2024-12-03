@@ -43,7 +43,29 @@ namespace SuperiorSpoonBills_FinalProject
             {
                 Problem479Description.Visible = true;
                 cmdSolveProblem479.Visible = true;
+                Problem4Description.Visible = false;
+                cmdsolveproblem4.Visible = false;
+                lblSolution4.Text = "";
             }
+            else if (ddlProblemChoices.SelectedIndex == 1)
+            {
+                Problem4Description.Visible = true;
+                cmdsolveproblem4.Visible = true;
+                Problem479Description.Visible = false;
+                cmdSolveProblem479.Visible = false;
+                lblSolution479.Text = "";
+            }
+           
+        }
+
+        protected void cmdsolveproblem4_Click(object sender, EventArgs e)
+        {
+            shinkecj shinkecj = new shinkecj();
+            double Problem4Solution;
+            int[] nums1 = { 1, 3 };
+            int[] nums2 = { 2 };
+            Problem4Solution = shinkecj.FindMedianSortedArrays(nums1, nums2);
+            lblSolution4.Text = Problem4Solution.ToString();
         }
     }
 }

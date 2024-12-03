@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SuperiorSpoonBills_FinalProject</RootNamespace>
     <AssemblyName>SuperiorSpoonBills_FinalProject</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -52,9 +52,9 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
@@ -81,6 +81,7 @@
     <Compile Include="Jacobry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sharpenn.cs" />
+    <Compile Include="shinkecj.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

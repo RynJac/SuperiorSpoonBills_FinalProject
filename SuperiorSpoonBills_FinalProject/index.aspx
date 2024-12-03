@@ -30,7 +30,7 @@ Anything else that's relevant:
             </p>
         <asp:DropDownList ID="ddlProblemChoices" runat="server">
             <asp:ListItem>Problem 479: Largest Palindome Product</asp:ListItem>
-            <asp:ListItem>Cam&#39;s Problem</asp:ListItem>
+            <asp:ListItem>Problem 4: Median of Two Sorted Arrays</asp:ListItem>
             <asp:ListItem>Ryan&#39;s Problem</asp:ListItem>
             <asp:ListItem>Zack&#39;s Problem</asp:ListItem>
         </asp:DropDownList>
@@ -46,10 +46,22 @@ Input: n = 2
 Output: 987
 <br />
 Explanation: 99 x 91 = 9009, 9009 % 1337 = 987
-        </p>    
+        </p>  
+        <p id="Problem4Description" runat="server" visible="false">
+4. Median of Two Sorted Arrays
+Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays
+<br />
+Input: nums1 =[1, 3], nums2 = [2]
+<br />
+Output: 2.00000
+<br />
+Explanation: Merged array [1, 2, 3] and the median is 2
+        </p>
 
         <asp:Button ID="cmdSolveProblem479" runat="server" Text="Solve Test Case" OnClick="cmdSolveProblem479_Click" visible="false"/>
             <asp:Label ID="lblSolution479" runat="server" Text=""></asp:Label>
+        <asp:Button ID="cmdsolveproblem4" runat="server" Text="Solve Test Case" OnClick="cmdsolveproblem4_Click" visible="false" />
+            <asp:Label ID="lblSolution4" runat="server" Text=""></asp:Label>
     </form>
 </body>
 </html>
