@@ -12,7 +12,7 @@ namespace SuperiorSpoonBills_FinalProject
             public bool IsNumber(string s)
             {
                 if (string.IsNullOrWhiteSpace(s)) return false;
-
+                //Test
                 s = s.Trim(); // Remove leading and trailing whitespaces
                 bool numSeen = false; // If a number is seen
                 bool dotSeen = false; // If a dot is seen
