@@ -60,6 +60,15 @@ namespace SuperiorSpoonBills_FinalProject
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Problem4Description;
 
         /// <summary>
+        /// Problem65Description control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Problem65Description;
+
+        /// <summary>
         /// cmdSolveProblem479 control.
         /// </summary>
         /// <remarks>
@@ -94,5 +103,23 @@ namespace SuperiorSpoonBills_FinalProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSolution4;
+
+        /// <summary>
+        /// cmdSolveQuestion65 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button cmdSolveQuestion65;
+
+        /// <summary>
+        /// lblSolution65 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSolution65;
     }
 }

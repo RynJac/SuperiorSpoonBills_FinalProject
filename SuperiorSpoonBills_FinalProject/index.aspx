@@ -31,7 +31,7 @@ Anything else that's relevant:
         <asp:DropDownList ID="ddlProblemChoices" runat="server">
             <asp:ListItem>Problem 479: Largest Palindome Product</asp:ListItem>
             <asp:ListItem>Problem 4: Median of Two Sorted Arrays</asp:ListItem>
-            <asp:ListItem>Ryan&#39;s Problem</asp:ListItem>
+            <asp:ListItem>Problem 65: Valid Number</asp:ListItem>
             <asp:ListItem>Zack&#39;s Problem</asp:ListItem>
         </asp:DropDownList>
         <asp:Button ID="cmdViewProblem" runat="server" Text="View Problem" OnClick="cmdViewProblem_Click" />
@@ -58,10 +58,38 @@ Output: 2.00000
 Explanation: Merged array [1, 2, 3] and the median is 2
         </p>
 
+        <p id="Problem65Description" runat="server" visible="false">
+65. Valid Number
+            Given a string s, return whether s is a valid number.
+            <br />
+            Input: "1", "."
+    
+            <br />
+            Output: True False
+            
+            <br />
+            Explanation: A valid number must contain at least one digit, and if e/E is present, it must be followed by a number.
+
+
+            </p>
+               
+
         <asp:Button ID="cmdSolveProblem479" runat="server" Text="Solve Test Case" OnClick="cmdSolveProblem479_Click" visible="false"/>
             <asp:Label ID="lblSolution479" runat="server" Text=""></asp:Label>
         <asp:Button ID="cmdsolveproblem4" runat="server" Text="Solve Test Case" OnClick="cmdsolveproblem4_Click" visible="false" />
             <asp:Label ID="lblSolution4" runat="server" Text=""></asp:Label>
+            <asp:Button ID="cmdSolveQuestion65" runat="server" Text="Solve Test Case" OnClick="btnSolveQuestion65_Click" Visible="false" />
+           <asp:Label ID="lblSolution65" runat="server" Text=""></asp:Label>
+
+
+                        
+
+
+  
+   
+       
+            
+      
     </form>
 </body>
 </html>

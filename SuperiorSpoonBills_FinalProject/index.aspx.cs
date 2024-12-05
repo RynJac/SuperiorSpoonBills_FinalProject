@@ -46,6 +46,9 @@ namespace SuperiorSpoonBills_FinalProject
                 Problem4Description.Visible = false;
                 cmdsolveproblem4.Visible = false;
                 lblSolution4.Text = "";
+                Problem65Description.Visible = false;
+                cmdSolveQuestion65.Visible = false;
+                lblSolution65.Text = "";
             }
             else if (ddlProblemChoices.SelectedIndex == 1)
             {
@@ -54,8 +57,23 @@ namespace SuperiorSpoonBills_FinalProject
                 Problem479Description.Visible = false;
                 cmdSolveProblem479.Visible = false;
                 lblSolution479.Text = "";
+                Problem65Description.Visible = false;
+                cmdSolveQuestion65.Visible = false;
+                lblSolution65.Text = "";
             }
-           
+            else if (ddlProblemChoices.SelectedIndex == 2)
+            {
+                Problem65Description.Visible = true;
+                cmdSolveQuestion65.Visible = true;
+                Problem479Description.Visible = false;
+                cmdSolveProblem479.Visible = false;
+                lblSolution479.Text = "";
+                Problem4Description.Visible = false;
+                cmdsolveproblem4.Visible = false;
+                lblSolution4.Text = "";
+
+            }
+
         }
 
         protected void cmdsolveproblem4_Click(object sender, EventArgs e)
@@ -67,5 +85,20 @@ namespace SuperiorSpoonBills_FinalProject
             Problem4Solution = shinkecj.FindMedianSortedArrays(nums1, nums2);
             lblSolution4.Text = Problem4Solution.ToString();
         }
+        protected void btnSolveQuestion65_Click(object sender, EventArgs e)
+        {
+          
+
+            
+            Jacobry.Solution solution = new Jacobry.Solution();
+
+           
+            bool isValidNumber = solution.IsNumber("0");
+            bool isValidNumber1 = solution.IsNumber(".");
+            lblSolution65.Text = isValidNumber.ToString() + isValidNumber1.ToString();
+
+         
+ 
+            }
+        }
     }
-}
