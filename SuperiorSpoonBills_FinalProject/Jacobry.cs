@@ -21,6 +21,9 @@ namespace SuperiorSpoonBills_FinalProject
 {
     public class Jacobry
     {
+        /// <summary>
+        /// The Solution class contains the logic for determining if a string represents a valid number.
+        /// </summary>
         public class Solution
         {
             /// <summary>

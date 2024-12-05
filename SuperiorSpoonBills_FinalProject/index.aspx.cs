@@ -119,7 +119,7 @@ namespace SuperiorSpoonBills_FinalProject
            
             bool isValidNumber = solution.IsNumber("0");
             bool isValidNumber1 = solution.IsNumber(".");
-            lblSolution65.Text = isValidNumber.ToString() + isValidNumber1.ToString();
+            lblSolution65.Text = isValidNumber.ToString() +" "+ isValidNumber1.ToString();
 
          
  
