@@ -45,7 +45,10 @@ namespace SuperiorSpoonBills_FinalProject
                 cmdSolveProblem479.Visible = true;
                 Problem4Description.Visible = false;
                 cmdsolveproblem4.Visible = false;
+                Problem233Description.Visible = false;
+                cmdSolveProblem233.Visible = false;
                 lblSolution4.Text = "";
+                lblSolution233.Text = "";
             }
             else if (ddlProblemChoices.SelectedIndex == 1)
             {
@@ -53,9 +56,23 @@ namespace SuperiorSpoonBills_FinalProject
                 cmdsolveproblem4.Visible = true;
                 Problem479Description.Visible = false;
                 cmdSolveProblem479.Visible = false;
+                Problem233Description.Visible = false;
+                cmdSolveProblem233.Visible = false;
                 lblSolution479.Text = "";
+                lblSolution233.Text = "";
             }
-           
+            else if (ddlProblemChoices.SelectedIndex == 3)
+            {
+                Problem233Description.Visible = true;
+                cmdSolveProblem233.Visible = true;
+                Problem479Description.Visible = false;
+                cmdSolveProblem479.Visible = false;
+                Problem4Description.Visible = false;
+                cmdsolveproblem4.Visible = false;
+                lblSolution479.Text = "";
+                lblSolution4.Text = "";
+            }
+
         }
 
         protected void cmdsolveproblem4_Click(object sender, EventArgs e)
@@ -67,5 +84,15 @@ namespace SuperiorSpoonBills_FinalProject
             Problem4Solution = shinkecj.FindMedianSortedArrays(nums1, nums2);
             lblSolution4.Text = Problem4Solution.ToString();
         }
+
+        protected void cmdSolveProblem233_Click(object sender, EventArgs e)
+        {
+            bellzj bellzj = new bellzj();
+            int Problem233Solution;
+            Problem233Solution = bellzj.CountDigitOne(13);
+            lblSolution233.Text = Problem233Solution.ToString();
+        }
+
+
     }
 }

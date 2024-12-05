@@ -32,7 +32,7 @@ Anything else that's relevant:
             <asp:ListItem>Problem 479: Largest Palindome Product</asp:ListItem>
             <asp:ListItem>Problem 4: Median of Two Sorted Arrays</asp:ListItem>
             <asp:ListItem>Ryan&#39;s Problem</asp:ListItem>
-            <asp:ListItem>Zack&#39;s Problem</asp:ListItem>
+            <asp:ListItem>Problem 233: Number of Digit One</asp:ListItem>
         </asp:DropDownList>
         <asp:Button ID="cmdViewProblem" runat="server" Text="View Problem" OnClick="cmdViewProblem_Click" />
         <p id="Problem479Description" runat="server" visible="false" >
@@ -58,10 +58,23 @@ Output: 2.00000
 Explanation: Merged array [1, 2, 3] and the median is 2
         </p>
 
+        <p id="Problem233Description" runat="server" visible="false">
+233. Number of Digit One
+Given an integer n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n.
+<br />
+Input: n = 13
+<br />
+Output: 6
+<br />
+Explanation: Counted that there is 6 instances of the digit 1 in numbers 0-13
+        </p>
+
         <asp:Button ID="cmdSolveProblem479" runat="server" Text="Solve Test Case" OnClick="cmdSolveProblem479_Click" visible="false"/>
             <asp:Label ID="lblSolution479" runat="server" Text=""></asp:Label>
         <asp:Button ID="cmdsolveproblem4" runat="server" Text="Solve Test Case" OnClick="cmdsolveproblem4_Click" visible="false" />
             <asp:Label ID="lblSolution4" runat="server" Text=""></asp:Label>
+        <asp:Button ID="cmdSolveProblem233" runat="server" Text="Solve Test Case" OnClick="cmdSolveProblem233_Click" visible="false" />
+            <asp:Label ID="lblSolution233" runat="server" Text=""></asp:Label>
     </form>
 </body>
 </html>
