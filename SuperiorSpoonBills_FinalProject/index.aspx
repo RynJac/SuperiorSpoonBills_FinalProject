@@ -1,5 +1,5 @@
 ﻿<!--
-Name: Nathan Sharpe
+Name: Nathan Sharpe, Cam Shinker, Zach Bell, and Ryan Jacob
 email: sharpenn@mail.uc.edu
 Assignment Number: Final Project
 Due Date: 12/10/24
@@ -9,7 +9,7 @@ Brief Description of the assignment: Collaborate using GitHub on a site that sol
 desired problem and see the description, a test case, and the solution by invoking the code that solves the problem.
 
 Brief Description of what this module does: Introduces us to collaborating with GitHub on ASP.NET web pages.
-Citations: https://leetcode.com/problems/largest-palindrome-product/, gemini.google.com (to create the problem solution only)
+Citations: https://leetcode.com/problems/largest-palindrome-product/, gemini.google.com (to create the problem solution only), https://leetcode.com/problems/median-of-two-sorted-arrays/description/
 Anything else that's relevant:
     -->
 
